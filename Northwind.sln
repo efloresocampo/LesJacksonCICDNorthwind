@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{408D86D4-6145-4BE1-A041-D7862DD330D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind", "src\Northwind\Northwind.csproj", "{07026DA7-D270-4801-A0AE-31B099311CE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B68347A5-1A76-4AFD-9154-E70DA39AE599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Test", "test\Northwind.Test\Northwind.Test.csproj", "{F57F9395-8E43-4097-9467-CC02F691B304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07026DA7-D270-4801-A0AE-31B099311CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07026DA7-D270-4801-A0AE-31B099311CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07026DA7-D270-4801-A0AE-31B099311CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07026DA7-D270-4801-A0AE-31B099311CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57F9395-8E43-4097-9467-CC02F691B304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57F9395-8E43-4097-9467-CC02F691B304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57F9395-8E43-4097-9467-CC02F691B304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57F9395-8E43-4097-9467-CC02F691B304}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07026DA7-D270-4801-A0AE-31B099311CE7} = {408D86D4-6145-4BE1-A041-D7862DD330D9}
+		{F57F9395-8E43-4097-9467-CC02F691B304} = {B68347A5-1A76-4AFD-9154-E70DA39AE599}
+	EndGlobalSection
+EndGlobal

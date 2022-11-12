@@ -1,0 +1,17 @@
+Crear un proyecto web api
+dotnet new webapi -n <Folder_name>
+
+Crear un proyecto de xunit
+dotnet new xunit -n <Folder_name>
+
+Crear un archivo de solución
+dotnet new sln --name <File_name>
+
+Correr las pruebas en el proyecto de xunit (en la raíz del proyecto de pruebas)
+dotnet test
+
+Agregar las referencias de los proyectos al archivo de solución
+dotnet sln <Solution_file_name>.sln add <Path/to/project/file>.csproj <Path/to/another/project/file>.csproj
+
+Agregar referencia del proyecto de src al de unit test para las pruebas
+dotnet add <Path/to/reference/project/file>.csproj references <Path/to/referenced/project>.csproj
