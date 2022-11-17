@@ -13,8 +13,7 @@ namespace Northwind.Test.GetWeatherForecast
             WeatherForecastController weatherForecastController  
                 = new(mockILogger.Object);
             var arrayFromController = weatherForecastController.Get();
-            //Assert.NotEmpty(arrayFromController);
-            Assert.Empty(arrayFromController);
+            Assert.NotEmpty(arrayFromController);
         }
     }
 }
