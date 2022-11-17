@@ -29,4 +29,10 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+    [HttpGet(Name = "GetFreezingWeatherForecast")]
+    public WeatherForecast GetFirstWeatherForecast()
+    {
+        return Summaries[0];
+    }
 }
